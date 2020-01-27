@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<readership>
+    <new total_hits="52" actual_hits="52" documents="10">
+		<document id="71cd8798-acf9-4c6d-a564-a2d5089775ae" title="Guggenheim Healthcare Monthly Review (June) &amp;#8211; Research, Sentiment, &amp;amp; Market Performance">
+            <emails_sent>1370</emails_sent>
+            <analyst primary="false">Whitney Wolfe</analyst>
+            <analyst primary="false">Brennan Doyle</analyst>
+            <analyst primary="true">Healthcare Sales Guggenheim Securities</analyst>
+            <sector primary="true">Healthcare</sector>
+            <hit BM_ID="1242630982">
+                <reader BM_ID="2632956">
+                    <name>Amy Le</name>
+                    <firm BM_ID="24686">WorldQuant, LLC</firm>
+                    <email type="BM">amy.le@exoduspoint.com</email>
+                </reader>
+                <channel>Email</channel>
+                <IP>174.203.14.176</IP>
+                <UserAgent>mozilla/5.0 (iphone; cpu iphone os 12_1_4 like mac os x) applewebkit/605.1.15 (khtml, like gecko) mobile/16d57</UserAgent>
+                <read>2019-06-30T23:54:49-04:00</read>
+                <insertTime>2019-06-30T23:54:48-04:00</insertTime>
+                <email>amy.le@exoduspoint.com</email>
+            </hit>
+            <hit BM_ID="1242629701">
+                <reader BM_ID="1613743">
+                    <name>Weidong Huang</name>
+                    <firm BM_ID="134254">Kalka Fund, LP</firm>
+                    <email type="BM">whuang@kalkacapital.com</email>
+                </reader>
+                <channel>Email</channel>
+                <IP>99.241.64.245</IP>
+                <UserAgent>mozilla/5.0 (windows nt 6.1; wow64; trident/7.0; rv:11.0) like gecko</UserAgent>
+                <read>2019-06-30T23:32:30-04:00</read>
+                <insertTime>2019-06-30T23:32:29-04:00</insertTime>
+                <email>whuang@kalkacapital.com</email>
+            </hit>
+        </document>
+		<document id="a47e514a-1dea-46bf-a041-35f2b63be5e0" title="Forward Power Curves, GenCo MtM and Weekly Commentary">
+            <emails_sent>2178</emails_sent>
+            <analyst primary="true">Shahriar Pourreza, CFA</analyst>
+            <analyst primary="false">James Kennedy</analyst>
+            <analyst primary="false">Constantine Lednev</analyst>
+            <analyst primary="false">Khanh Nguyen, CFA</analyst>
+            <sector primary="true">Power, Utilities &amp; Alternative Energy</sector>
+            <sector primary="false">Energy &amp; Power</sector>
+            <hit BM_ID="1242644179">
+                <reader BM_ID="2667668">
+                    <name>Eric Peterson</name>
+                    <firm BM_ID="2777">Millennium Management Llc</firm>
+                    <email type="BM">epeterson67@bloomberg.net</email>
+                </reader>
+                <channel>Bloomberg</channel>
+                <engaged>2019-06-30T23:14:47-04:00</engaged>
+                <insertTime>2019-07-01T01:10:02-04:00</insertTime>
+                <updateTime>2019-07-30T01:50:04-04:00</updateTime>
+            </hit>
+            <hit BM_ID="1242644181">
+                <reader BM_ID="2667668">
+                    <name>Eric Peterson</name>
+                    <firm BM_ID="2777">Millennium Management Llc</firm>
+                    <email type="BM">epeterson67@bloomberg.net</email>
+                </reader>
+                <channel>Bloomberg</channel>
+                <engaged>2019-06-30T23:14:49-04:00</engaged>
+                <insertTime>2019-07-01T01:10:02-04:00</insertTime>
+                <updateTime>2019-07-30T01:50:04-04:00</updateTime>
+            </hit>
+        </document>
+        <document id="065d19ed-ec9d-4496-acca-4300170e4a30" title="EXPE: Further Thoughts on Management Shake-Up">
+            <emails_sent>1150</emails_sent>
+            <security primary="true">EXPE</security>
+			<security primary="false">DEMO</security>
+            <analyst primary="true">Jake Fuller</analyst>
+            <sector primary="true">Digital Services</sector>
+            <hit BM_ID="1330325142">
+                <reader BM_ID="2746257">
+                    <name>Jonathan Wu</name>
+                    <firm BM_ID="9243">Blue Harbour Group, L.P.</firm>
+                    <email type="BM">jwu@bhgrp.com</email>
+                </reader>
+                <channel>Email</channel>
+                <IP>72.229.219.236</IP>
+                <UserAgent>mozilla/5.0 (iphone; cpu iphone os 13_1_3 like mac os x) applewebkit/605.1.15 (khtml, like gecko) mobile/15e148</UserAgent>
+                <read>2019-12-05T00:14:42-05:00</read>
+                <insertTime>2019-12-05T00:14:41-05:00</insertTime>
+                <email>jwu@bhgrp.com</email>
+            </hit>
+            <hit BM_ID="1330323626">
+                <reader BM_ID="564602">
+                    <name>John Buchanan</name>
+                    <firm BM_ID="2863">Par Capital Management Inc</firm>
+                    <email type="BM">buchanan@parcapital.com</email>
+                </reader>
+                <channel>Email</channel>
+                <IP>74.125.210.47</IP>
+                <UserAgent>mozilla/5.0 (windows nt 5.1; rv:11.0) gecko firefox/11.0 (via ggpht.com googleimageproxy)</UserAgent>
+                <read>2019-12-05T00:07:33-05:00</read>
+                <insertTime>2019-12-05T00:07:33-05:00</insertTime>
+                <email>buchanan@parcapital.com</email>
+            </hit>
+            <hit BM_ID="1330325287">
+                <reader BM_ID="1646446">
+                    <name>Matthew DiFrisco</name>
+                    <firm BM_ID="2294">Guggenheim Partners, LLC</firm>
+                    <email type="BM">Matthew.DiFrisco@guggenheimpartners.com</email>
+                </reader>
+                <channel>Email</channel>
+                <IP>174.203.10.13</IP>
+                <UserAgent>mozilla/5.0 (iphone; cpu iphone os 13_1_3 like mac os x) applewebkit/605.1.15 (khtml, like gecko) mobile/15e148</UserAgent>
+                <read>2019-12-05T00:15:33-05:00</read>
+                <insertTime>2019-12-05T00:15:33-05:00</insertTime>
+                <email>matthew.difrisco@guggenheimpartners.com</email>
+            </hit>
+        </document>
+        <document id="adf8a683-0a54-469f-9c9d-3d881d8612c5" title="SR: Court of Appeals Ruling Introduces Small Regulatory Lag in FY20, But Likely Transitory; Relief Options Pursued">
+            <emails_sent>2184</emails_sent>
+            <security primary="true">SR</security>
+            <analyst primary="true">Shahriar Pourreza, CFA</analyst>
+            <analyst primary="false">James Kennedy</analyst>
+            <analyst primary="false">Kody Clark</analyst>
+            <analyst primary="false">Constantine Lednev</analyst>
+            <analyst primary="false">Robert Koryl</analyst>
+            <analyst primary="false">Guggenheim Utilities Research</analyst>
+            <sector primary="false">Energy &amp; Power</sector>
+            <sector primary="true">Power, Utilities &amp; Alternative Energy</sector>
+            <hit BM_ID="1331043664">
+                <reader embargoed="true"/>
+                <channel>Bloomberg</channel>
+                <engaged>2019-12-05T00:14:17-05:00</engaged>
+                <insertTime>2019-12-06T01:10:02-05:00</insertTime>
+            </hit>
+        </document>
+        <document id="4786ec69-3fa6-422e-8bc4-40218c760d19" title="EXPE: 2020 EBITDA Estimate Down on SEO &amp;amp; ADR Headwinds, Mixed 4Q Checks">
+            <emails_sent>1150</emails_sent>
+            <security primary="true">EXPE</security>
+            <analyst primary="true">Jake Fuller</analyst>
+            <sector primary="true">Digital Services</sector>
+            <hit BM_ID="1330325870">
+                <reader BM_ID="2755062">
+                    <name>Matthew Oil</name>
+                    <firm BM_ID="15111">Expedia Inc</firm>
+                    <email type="BM">moil@expediagroup.com</email>
+                </reader>
+                <channel>Email</channel>
+                <IP>165.225.50.172</IP>
+                <UserAgent>mozilla/5.0 (compatible; msie 10.0; windows nt 10.0; wow64; trident/7.0; microsoft outlook 16.0.11328; microsoft outlook 16.0.11328; ms-office; msoffice 16)</UserAgent>
+                <read>2019-12-05T00:19:41-05:00</read>
+                <insertTime>2019-12-05T00:19:41-05:00</insertTime>
+                <email>moil@expediagroup.com</email>
+            </hit>
+            <hit BM_ID="1330325025">
+                <reader BM_ID="2755062">
+                    <name>Matthew Oil</name>
+                    <firm BM_ID="15111">Expedia Inc</firm>
+                    <email type="BM">moil@expediagroup.com</email>
+                </reader>
+                <channel>Email</channel>
+                <IP>165.225.50.172</IP>
+                <UserAgent>mozilla/5.0 (compatible; msie 10.0; windows nt 10.0; wow64; trident/7.0; microsoft outlook 16.0.11328; microsoft outlook 16.0.11328; ms-office; msoffice 16)</UserAgent>
+                <read>2019-12-05T00:13:54-05:00</read>
+                <insertTime>2019-12-05T00:13:53-05:00</insertTime>
+                <email>moil@expediagroup.com</email>
+            </hit>
+        </document>
+    </new>
+    <updated total_hits="0">
+		<document id="f50c297b-fb02-45cb-90e3-1041fcb616fc" title="ETM - BUY - 2Q Hit by Soft June, 3Q Pacing Up Low-Single Digits; Podcasting Transactions Announced">
+			<emails_sent>1410</emails_sent>
+			<security primary="true">ETM</security>
+			<analyst primary="false">Michael Morris, CFA</analyst>
+			<analyst primary="true">Curry Baker</analyst>
+			<analyst primary="false">Charles Wilber</analyst>
+			<analyst primary="false">Jackson Taylor</analyst>
+			<sector primary="true">Entertainment &amp; Digital Media</sector>
+			<hit BM_ID="1310081660">
+				<reader BM_ID="2662864">
+					<name>Redmond Sheresky</name>
+					<firm BM_ID="2294">Guggenheim Partners, LLC</firm>
+					<email type="BM">red.sheresky@guggenheimpartners.com</email>
+				</reader>
+				<channel>ThomsonReuters</channel>
+				<engaged>2019-10-31T23:59:16-04:00</engaged>
+				<insertTime>2019-11-01T07:10:15-04:00</insertTime>
+				<updateTime>2019-12-01T07:21:02-05:00</updateTime>
+			</hit>
+		</document>
+		<document id="c988b1ed-d516-4b70-9a66-1ed0342de7fa" title="WWE - BUY - AEW Wins Round One; Question Remains: All Hype or Staying Power?">
+			<emails_sent>1425</emails_sent>
+			<security primary="true">WWE</security>
+			<analyst primary="false">Michael Morris, CFA</analyst>
+			<analyst primary="true">Curry Baker</analyst>
+			<analyst primary="false">Charles Wilber</analyst>
+			<analyst primary="false">Jackson Taylor</analyst>
+			<sector primary="true">Entertainment &amp; Digital Media</sector>
+			<hit BM_ID="1310081320">
+				<reader BM_ID="1663015">
+					<name>Orion Poon</name>
+					<firm BM_ID="19148">Fullerton Capital Partners Lp</firm>
+					<email type="BM">bruce@fullertonlp.com</email>
+				</reader>
+				<channel>ThomsonReuters</channel>
+				<engaged>2019-10-31T14:40:33-04:00</engaged>
+				<insertTime>2019-11-01T07:10:08-04:00</insertTime>
+				<updateTime>2019-12-01T07:20:34-05:00</updateTime>
+			</hit>
+			<hit BM_ID="1310830993">
+				<reader BM_ID="2447588">
+					<name>Robert Moyer</name>
+					<firm BM_ID="2294">Guggenheim Partners, LLC</firm>
+					<email type="BM">robert.moyer@bloomberg.net</email>
+				</reader>
+				<channel>Bloomberg</channel>
+				<engaged>2019-11-01T19:54:08-04:00</engaged>
+				<insertTime>2019-11-02T01:10:20-04:00</insertTime>
+				<updateTime>2019-12-01T01:20:52-05:00</updateTime>
+			</hit>
+		</document>
+	</updated>
+    <invalid actual_hits="0" documents="0"/>
+</readership>
