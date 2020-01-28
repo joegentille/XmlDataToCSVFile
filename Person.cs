@@ -26,6 +26,8 @@ namespace SomeCodeTools
         [Display(Name = "Primary Analyst")]
         public string Analyst { get; set; }
         public string Sector { get; set; }
-
+        public string Read { get; set; }
+        public string Engaged { get; set; }
+        public string UpdateTime { get; set; }
     }
 }

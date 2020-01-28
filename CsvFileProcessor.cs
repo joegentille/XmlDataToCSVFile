@@ -51,24 +51,20 @@ namespace SomeCodeTools
             {
                 using (var csvWriter = new CsvWriter(writer, CultureInfo.CurrentCulture))
                 {
+                    //List<Person> listOfNewDocuments = new List<Person>();
+                    //List<Person> listOfUpdatedDocuments = new List<Person>();
                     csvWriter.Configuration.Delimiter = ";";
                     csvWriter.Configuration.HasHeaderRecord = true;
                     csvWriter.WriteHeader(typeof(Person));
                     csvWriter.WriteHeader<Person>();
                     csvWriter.NextRecord();
-                    //XmlDocument loadedFile = LoadXmlFile();
-                    var listOfPersons = ExtractData("/readership/new/document");
-                    csvWriter.WriteRecords(listOfPersons);
+                    var listOfNewDocuments = ExtractData("/readership/new/document");
+                    var listOfUpdatedDocuments = ExtractData("/readership/updated/document");
+                    listOfNewDocuments.AddRange(listOfUpdatedDocuments);
+                    csvWriter.WriteRecords(listOfNewDocuments);
                 }
             }
         }
-
-        //public XmlDocument LoadXmlFile()
-        //{
-        //    XmlDocument doc = new XmlDocument();
-        //    doc.Load(@"D:\Test\ReaderShip.xml");
-        //    return doc;
-        //}
 
         public List<Person> ExtractData(string  path)
         {
@@ -90,6 +86,13 @@ namespace SomeCodeTools
                     person.Email = GetNodeValueFromXML(tinyNode, "reader/email");
                     person.Channel = GetNodeValueFromXML(tinyNode, "channel");
                     person.DocumentId = GetAttributeValueFromNode(node, "id");
+                    person.Title = GetAttributeValueFromNode(node, "title");
+                    person.Security = GetNodeValueFromXML(node, "security[@primary='true']");
+                    person.Analyst = GetNodeValueFromXML(node, "analyst[@primary='true']");
+                    person.Sector = GetNodeValueFromXML(node, "sector[@primary='true']");
+                    person.Read = GetNodeValueAsDateTimeFromXML(tinyNode, "read");
+                    person.Engaged = GetNodeValueAsDateTimeFromXML(tinyNode, "engaged");
+                    person.UpdateTime = GetNodeValueAsDateTimeFromXML(tinyNode, "updateTime");
                     lstPersons.Add(person);
                 }
             }
@@ -120,28 +123,6 @@ namespace SomeCodeTools
             return "";
         }
 
-        //private string GetFirmFromXML(XmlNode xmlNode)
-        //{
-        //    var node = xmlNode.SelectSingleNode("reader/firm");
-        //    if(node != null)
-        //    {
-        //        var value = node.InnerText;
-        //        return value;
-        //    }
-        //    return "";
-        //}
-
-        //private string GetEmailFromXML(XmlNode xmlNode)
-        //{
-        //    var node = xmlNode.SelectSingleNode("reader/email"); 
-        //    if(node != null)
-        //    {
-        //        var value = node.InnerText;
-        //        return value;
-        //    }
-        //    return "";
-        //}
-
         private string GetNodeValueFromXML(XmlNode xmlNode, string path)
         {
             var node = xmlNode.SelectSingleNode(path);
@@ -159,6 +140,16 @@ namespace SomeCodeTools
             return attributeValue;
         }
 
-
+        private string GetNodeValueAsDateTimeFromXML(XmlNode xmlNode, string path)
+        {
+            var node = xmlNode.SelectSingleNode(path);
+            if(node != null)
+            {
+                var value = node.InnerText;
+                DateTime date = Convert.ToDateTime(value);
+                return date.ToString();
+            }
+            return "";
+        }
     }
 }
